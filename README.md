@@ -1,4 +1,4 @@
-### Orca Manuscript
+## Orca Manuscript
 
 This repository contains the code and data required for reproducing the analyses in the Orca manuscript. For using Orca and training Orca models, please visit our main [repository](https://github.com/jzhoulab/orca).
 
@@ -16,9 +16,9 @@ The jupyter notebooks are largely grouped by topics:
 - StructuraVariants.ipynb : Prediction of structural variant effects on 3D genome interactions. 
 
 
-#### Dependencies
+### Dependencies
 Other than [Orca dependencies](https://github.com/jzhoulab/orca), you will also need jupyter, rpy2, and plotnine python packages which can be installed with Anaconda or pip. For R packages, we will use data.table, ggplot2, patchwork, ggridges, ggrastr, ggthemes, limma.
 
-#### Data
+### Data
 You will need additional resource files for reproducing some of the analyses, and we have provided these files [here](https://zenodo.org/record/4624514/files/orca_manuscript_resources.tar.gz). In addition, you can download our precomputed results files [here](https://zenodo.org/record/4624514/files/orca_manuscript_figuredata.tar.gz), which can save you time from executing the slow steps of the analyses.
 
