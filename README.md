@@ -6,15 +6,16 @@ Most of the analyses code are provided in jupyter notebook format. Each jupyter 
 
 The jupyter notebooks are largely grouped by topics:
 
-- Compartment_activity_screen.ipynb: Analyses of sequence activities in chromatin compartment alterations
-- Local_interaction_screens.ipynb: Identifying sequences that affect submegabase-scale genome interactions
-- Local_interaction_multiplex_demo.ipynb: Multiplexed in silico mutagenesis demo example.
-- Enhancerpolycomb_example.ipynb: Example predictions of enhancer-promoter interactions and Polycomb-mediated interactions.
-- Model_performance.ipynb: Orca model prediction performance evaluations.
-- Model_performance_256M.ipynb: Orca model prediction performance evaluations (32-256Mb).
-- Model_performance_hctnoc.ipynb: Orca model prediction performance evaluations for the cohesin-depleted HCT119 model.
-- StructuraVariants.ipynb: Prediction of structural variant effects on 3D genome interactions. 
-- 
+- Compartment_activity_screen.ipynb : Analyses of sequence activities in chromatin compartment alterations
+- Local_interaction_screens.ipynb : Identifying sequences that affect submegabase-scale genome interactions
+- Local_interaction_multiplex_demo.ipynb : Multiplexed in silico mutagenesis demo example.
+- Enhancerpolycomb_example.ipynb : Example predictions of enhancer-promoter interactions and Polycomb-mediated interactions.
+- Model_performance.ipynb : Orca model prediction performance evaluations.
+- Model_performance_256M.ipynb : Orca model prediction performance evaluations (32-256Mb).
+- Model_performance_hctnoc.ipynb : Orca model prediction performance evaluations for the cohesin-depleted HCT119 model.
+- StructuraVariants.ipynb : Prediction of structural variant effects on 3D genome interactions. 
+
+
 #### Dependencies
 Other than [Orca dependencies](https://github.com/jzhoulab/orca), you will also need jupyter, rpy2, and plotnine python packages which can be installed with Anaconda or pip. For R packages, we will use data.table, ggplot2, patchwork, ggridges, ggrastr, ggthemes, limma.
 
