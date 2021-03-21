@@ -1,6 +1,6 @@
 ## Orca Manuscript
 
-This repository contains the code and data required for reproducing the analyses in the Orca manuscript. For using Orca and training Orca models, please visit our main [repository](https://github.com/jzhoulab/orca). For running Orca from our webserver, please visit: [orca.zhoulab.io](https://orca.zhoulab.io).
+This repository contains the code and data required for reproducing the analyses in the Orca manuscript. For using Orca and training Orca models, please visit our main [repository](https://github.com/jzhoulab/orca). For running Orca from our webserver, please visit [orca.zhoulab.io](https://orca.zhoulab.io).
 
 Most of the analyses code are provided in jupyter notebook format. Each jupyter notebook contains a series of analyses and typically generates multiple plots for the same theme of analyses. For large-scale virtual screens, you can find scripts under the `virtual_screen` directory, and the `Compartment_activity_screen.ipynb` also contains code for running multiple compartment activity screen analyses.
 
