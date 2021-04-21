@@ -1,6 +1,6 @@
 ## Orca Manuscript
 
-This repository contains the code and data required for reproducing the analyses in the Orca manuscript. For using Orca and training Orca models, please visit our main [repository](https://github.com/jzhoulab/orca).
+This repository contains the code and data required for reproducing the analyses in the Orca manuscript. For using Orca and training Orca models, please visit our main [repository](https://github.com/jzhoulab/orca). For running Orca from our webserver, please visit [orca.zhoulab.io](https://orca.zhoulab.io).
 
 Most of the analyses code are provided in jupyter notebook format. Each jupyter notebook contains a series of analyses and typically generates multiple plots for the same theme of analyses. For large-scale virtual screens, you can find scripts under the `virtual_screen` directory, and the `Compartment_activity_screen.ipynb` also contains code for running multiple compartment activity screen analyses.
 
@@ -17,8 +17,8 @@ The jupyter notebooks are largely grouped by topics:
 
 
 ### Dependencies
-Other than [Orca dependencies](https://github.com/jzhoulab/orca), you will also need jupyter, rpy2, and plotnine python packages which can be installed with Anaconda or pip. For R packages, we will use data.table, ggplot2, patchwork, ggridges, ggrastr, ggthemes, limma.
+Other than [Orca dependencies](https://github.com/jzhoulab/orca#installation), you will also need jupyter, rpy2, and plotnine python packages which can be installed with Anaconda or pip. For R packages, we will use data.table, ggplot2, patchwork, ggridges, ggrastr, ggthemes, and limma.
 
 ### Data
-You will need additional resource files for reproducing some of the analyses, and we have provided these files [here](https://zenodo.org/record/4624514/files/orca_manuscript_resources.tar.gz). Note that the jupyter notebooks use GPU to generate Orca predictions by default. You can generally switch to CPU by using `use_cuda=False` option, but they may be too slow for computationally intensive steps. You can also skip the computationally intensive steps by downloading our precomputed results files [here](https://zenodo.org/record/4624514/files/orca_manuscript_figuredata.tar.gz). We have provided code to load precomputed results in the jupyter notebooks.
+You will need additional resource files for reproducing some of the analyses, and we have provided these files [here](https://zenodo.org/record/4624514/files/orca_manuscript_resources.tar.gz)(178M). Note that the jupyter notebooks use GPU to generate Orca predictions by default. You can generally switch to CPU by using `use_cuda=False` option, but they may be too slow for computationally intensive steps. You can also skip the computationally intensive steps by downloading our precomputed results files [here](https://zenodo.org/record/4624514/files/orca_manuscript_figuredata.tar.gz)(19G). We have provided code to load precomputed results in the jupyter notebooks.
 
